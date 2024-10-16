@@ -1,0 +1,69 @@
+/* General Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Row Styling */
+thead tr {
+    background-color: #343a40;
+    color: white;
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #dee2e6;
+    font-size: 18px;
+}
+
+/* Table Row Styling */
+tbody tr {
+    border-bottom: 1px solid #dee2e6;
+}
+
+td {
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* Alternating Row Color */
+tbody tr:nth-child(even) {
+    background-color: #e9ecef;
+}
+
+/* Highlighted Row */
+.highlight {
+    background-color: #ffdd57;
+    color: #343a40;
+    font-weight: bold;
+}
+
+/* Hover Effect */
+tbody tr:hover {
+    background-color: #adb5bd;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Adjusted Styling for Specific Classes */
+.first-table th {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.second-table td {
+    color: #007bff;
+}
+
+.third-table strong {
+    font-style: italic;
+}
+
+.fourth-table td {
+    color: #28a745;
+}
